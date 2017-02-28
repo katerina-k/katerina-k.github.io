@@ -1,10 +1,15 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
+- title: About
+  url: "/about/"
   side: left
+  dropdown:
+  - title: "Program Overview"
+    url: "/program-overview/
+  - title: "Research Projects"
+    url: : "/research-projects/"
 
 - title: "Templates"
   url: "/design/"
