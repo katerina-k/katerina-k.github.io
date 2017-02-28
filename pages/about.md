@@ -1,22 +1,9 @@
 ---
-layout: page
-show_meta: false
+layout: page-fullwidth
 title: "About"
-header: no
+subtitle: "Program Overview"
+header:
 permalink: "/about/"
 ---
-1. Open `_config.yml` and work it through, it's well documented
-1. Add your own `logo.png` to `/assets/img/`.
-1. Open `_data/socialmedia.yml` and add your own social media links.
-1. Open `_data/navigation.yml` and customize your navigation.
-1. Open `_data/language.yml` and translate the theme if necessary.
-1. Open `_data/services.yml` and customize links in the footer.
-1. Open `_data/network.yml` and customize links in the footer.
-1. Open `_data/authors.yml` and edit author information and set default author in `config.yml`.
-1. [Read the documentation][1] to check out all features of *Feeling Responsive*.
-1. Make it yours and add your own content.
 
-<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
-
-
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
+The goal of this research program is to build a next generation integrated suite of science-driven modeling and analytic capabilities, and a more expanded and connected community of practice, for analyses of the stressors, impacts, adaptations and vulnerabilities of global and regional change, with emphasis in understanding the Energy-Water-Land Nexus and interdependent infrastructures. Although the scope spans many complex facets of data, modeling, and analysis, as well as scales appropriate for integrated impacts and adaptation research, a particular focus of this effort is the development of multi- model, multi-scale capabilities spanning the domain of Integrated Assessment Models (IAMs); Impact, Adaptation, and Vulnerability (IAV) models; and Earth System Models (ESMs). 

@@ -1,5 +1,5 @@
 ---
-title: People
+title: Participants
 layout: page
 class: participants
 ---
