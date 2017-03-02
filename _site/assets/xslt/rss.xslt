@@ -14,6 +14,8 @@
 
   
 
+	 <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/klk5327_custom.css">
+
 	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
@@ -24,6 +26,8 @@
 			}
 		});
 	</script>
+	
+	<script src="https://use.fontawesome.com/af230eaeb5.js"></script>
 
 	<noscript>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
@@ -477,7 +481,7 @@
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            <p> &hearts; Izzy and Casta</p>
+            <p> &hearts;</p>
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">
