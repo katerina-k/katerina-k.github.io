@@ -1,11 +1,10 @@
 ---
 layout: page-fullwidth
 title: "News"
-teaser: "This page is under construction..."
 permalink: "/news/"
 header:
 ---
-
+<br>
 <div>
 	{% for story in site.news reversed%}
         <div class="medium-4 columns">

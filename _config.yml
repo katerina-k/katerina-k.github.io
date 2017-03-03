@@ -256,4 +256,5 @@ asciidoctor:
     
 collections:
   participants:
-  news:    
+  news:   
+  events: 

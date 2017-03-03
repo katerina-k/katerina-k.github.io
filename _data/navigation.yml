@@ -1,4 +1,4 @@
-- title: Home
+- title: "Home"
   url: "/"
   side: left
 
@@ -14,11 +14,11 @@
   url: "/publications/"
   side: left
 
-- title: News
+- title: "News"
   url: "/news/"
   side: left
 
-- title: Events
+- title: "Events"
   url: "/events/"
   side: left
 
