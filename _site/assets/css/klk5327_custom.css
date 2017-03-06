@@ -12,8 +12,7 @@ p {
   hyphens: none;
   }
 	
-time.icon
-{
+time.icon {
   font-size: 1em; /* change icon size */
   display: block;
   position: relative;
@@ -25,8 +24,7 @@ time.icon
   overflow: hidden;
   }
 
-time.icon *
-{
+time.icon * {
   display: block;
   width: 100%;
   font-size: 1em;
@@ -35,8 +33,7 @@ time.icon *
   text-align: center;
   }
 
-time.icon strong
-{
+time.icon strong {
   position: absolute;
   top: 0;
   padding: 0.4em 0;
@@ -46,17 +43,25 @@ time.icon strong
   box-shadow: 0 2px 0 #FF9966;
   }
 
-time.icon em
-{
+time.icon em {
   position: absolute;
   bottom: 0.1em;
   color: #FF9966;
   }
 
-time.icon span
-{
+time.icon span {
   font-size: 2.8em;
   letter-spacing: -0.05em;
   padding-top: 0.8em;
   color: #2f2f2f;
+  }
+  
+div.subheader-3 {
+  color: #575757;
+  font-size: larger;
+  padding-top: 3px;
+  }
+  
+dt {
+  padding-top: 15px;
   }
