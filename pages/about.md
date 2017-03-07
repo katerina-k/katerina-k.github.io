@@ -1,7 +1,8 @@
 ---
 layout: page-fullwidth
 title: "About"
-header:
+header:  
+  image_fullwidth: arches.jpg
 permalink: "/about/"
 ---
 
@@ -22,23 +23,17 @@ The goal of this research program is to build a next generation integrated suite
 #### Project 1.1: Gridded modeling of the energy-water-land nexus
 **Investigators**: Hertel (lead), Diffenbaugh, Frolking, Lammers, Schlenker, Webster 
 
-The impacts of changes in climate, including higher temperatures and changes in precipitation patterns, and human
-  systems, including water infrastructure and markets, will have important consequences for the energy, water, and
-  agricultural systems and markets, and the important interactions and feedbacks between these systems. To
-  understand these feedbacks better and to explore the tradeoffs among alternative adaptation strategies we propose
-  to connect a group of simulation models, each representing a key component of this system, at a hierarchy of
-  spatial and temporal scales.
+Project 1.1 focuses on questions related to extreme climate events, their effects on the energy- water-land system, and adaptation options in the contiguous U.S. To address these questions, fine-scale spatial and temporal analysis of the EWL system is necessary in order to capture the frequency, intensity and impacts of extreme climate events, as well as to understand the infrastructure needs for adaptation to these events. Our approach involves coupling fine-scale process models (water balance, power system and agricultural impact models) with a simplified gridded economic model (SIMPLE) of the U.S.
 
 #### Project 1.2: Capturing governance, institutional, and system constraints related to energy-water-land in an integrated IAV-IA modeling framework
 **Investigators**:  Fisher-Vanden (Lead), Frolking, Lammers, Olmstead, Webster, Wrenn 
 
-Often overlooked yet important factors when modeling integrated impacts are governance, institutional, and system constraints. These constraints can lead to situations of maladaptation to climate change-induced impacts such as water shortages or extreme climate events (e.g. extreme temperatures, drought, and floods). Not only is it important to represent these constraints individually in a framework for modeling integrated impacts, it is also critically important to model how these constraints interact to exacerbate an already strained system.
+Project 1.2 focuses on understanding how governance, institutional and system constraints will affect regional economies under alternative climate change futures, and how relaxing these constraints and addressing market failures could alleviate these economic impacts. We will couple fine-scale process models (water balance and power system models) with a sectoral-detailed economic model focused on the Western U.S. and Texas which will act as the coordinating mechanism to facilitate the interlinkages between the fine-scale IAV models, with an emphasis on governance, institutional, and system constraints.
 
 #### Project 1.3: Integrated assessment of climate change impact risk on the food-energy-water nexus
 **Investigators**: Sue Wing (lead), Mansur 
 
-Future climate change will directly impact the energy-water-land (EWL) nexus in several ways, both positive and negative. Changes in the distribution of temperature extremes alter the short-run demands for heating and cooling and the consumption of different fuels, given extant energy infrastructure. In the long run such temperature changes induce changes in that infrastructure itself, via producer and consumer decisions to adjust the stocks of energy using durable HVAC equipment, with further effects on the demand for different fuels, triggering market responses of energy production and prices, and international trade in energy commodities. Changes in precipitation, runoff and river discharge affect surface water availability and water supply-demand balance. Of concern is the adverse effect of increased water scarcity that directly impacts the economic well-being of households and induces costly adjustments and substitution on the part of producers in multiple water-using sectors (especially irrigated agriculture), as well as spurring the depletion of finite and unsustainable groundwater resources. Food production systems are vulnerable to the adverse effects of droughts and extreme heat on crop productivity, which may lead to crop output declines and price increases and accompanying shifts in patterns of crop production and in turn international agricultural trade. 
-
+Project 1.3 focuses on assessing, globally, the risks of cascading adverse impacts on the energy-water-land nexus posed by climate change. Addressing questions at this scale requires a different approach than in Projects 1.1 and 1.2 since direct coupling of detailed process models is typically not feasible at this scale. Therefore, we emphasize the building of large scale statistical and process emulators that can be directly incorporated into a global IAM.
 
 ### Program Element II
 <div class="subheader-3"> Building foundational, modeling integration methods and capabilities with the development of coupling software, emulators, advanced computational and statistical methods, and translational tools</div>
