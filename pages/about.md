@@ -1,8 +1,8 @@
 ---
 layout: page-fullwidth
 title: "About"
-header:  
-	image_fullwidth: "arches.jpg"
+header:
+  image_fullwidth: arches.jpg
 permalink: "/about/"
 ---
 
