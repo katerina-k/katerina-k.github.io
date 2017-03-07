@@ -3,6 +3,7 @@ layout: page-fullwidth
 title: "News"
 permalink: "/news/"
 header:
+  image_fullwidth: mt-jefferson.jpg
 ---
 <br>
 <div>

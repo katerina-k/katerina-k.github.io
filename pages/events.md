@@ -3,6 +3,7 @@ layout: page-fullwidth
 title: "Events"
 permalink: "/events/"
 header:
+  image_fullwidth: italy-highway.jpg
 ---
 <br>
 ### Upcoming Events

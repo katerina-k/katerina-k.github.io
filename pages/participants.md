@@ -3,6 +3,8 @@ title: Participants
 layout: page-fullwidth
 class: participants
 permalink: "/participants/"
+header:
+  image_fullwidth: golden-gate.jpg
 ---
 <br>
 ### Directors

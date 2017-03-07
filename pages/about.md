@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "About"
 header:
-  image_fullwidth: arches.jpg
+  image_fullwidth: grasshopper-chain.jpg
 permalink: "/about/"
 ---
 
