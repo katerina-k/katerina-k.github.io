@@ -35,7 +35,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Program on Coupled Human Earth Systems (PCHES) is supported by the United States Department of Energy.">
+	<meta name="description" content="Program on Coupled Human Earth Systems (PCHES) is supported by the U.S. Department of Energy.">
 	<meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ">
 	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" >
 	
@@ -47,7 +47,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="RSS Feed (Styled)">
-	<meta property="og:description" content="Program on Coupled Human Earth Systems (PCHES) is supported by the United States Department of Energy.">
+	<meta property="og:description" content="Program on Coupled Human Earth Systems (PCHES) is supported by the U.S. Department of Energy.">
 	<meta property="og:url" content="http://localhost:4000/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -62,7 +62,7 @@
 	<meta name="twitter:site" content="phlow">
 	<meta name="twitter:creator" content="phlow">
 	<meta name="twitter:title" content="RSS Feed (Styled)">
-	<meta name="twitter:description" content="Program on Coupled Human Earth Systems (PCHES) is supported by the United States Department of Energy.">
+	<meta name="twitter:description" content="Program on Coupled Human Earth Systems (PCHES) is supported by the U.S. Department of Energy.">
 	
 	
 
@@ -377,7 +377,7 @@
             <h5 class="shadow-black">About This Site</h5>
 
             <p class="shadow-black">
-              Program on Coupled Human Earth Systems (PCHES) is supported by the United States Department of Energy.
+              Program on Coupled Human Earth Systems (PCHES) is supported by the U.S. Department of Energy.
               <a href="http://localhost:4000/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
@@ -481,7 +481,7 @@
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            <p> &hearts;</p>
+            PCHES is generously supported by the U.S. Department of Energy <img src="https://katerina-k.github.io/images/DOE-seal.png">
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">

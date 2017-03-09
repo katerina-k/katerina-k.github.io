@@ -17,7 +17,7 @@ slogan: 'Program on Coupled Human Earth Systems'
 description: 'Program on Coupled Human Earth Systems (PCHES) is supported by the U.S. Department of Energy.'
 
 # The credits show up in the includes/_footer.html
-credits: 
+credits: PCHES is generously supported by the U.S. Department of Energy <img src="https://katerina-k.github.io/images/DOE-seal.png">
 
 # Main author of the website
 # See > authors.yml
