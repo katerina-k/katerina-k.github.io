@@ -1,0 +1,13 @@
+{% comment %}
+Format the doi or url
+{% endcomment %}
+
+{% assign sepp=include.separator %}
+
+{% capture formatted_string %}
+{% if item.doi %}{{ sepp }}DOI: <a href="http://dx.doi.org/{{ item.doi }}" target="_blank">{{ item.doi }}</a>
+{% elsif item.url[0] %}{{ sepp }}<a href="{{ item.url[0] }}" target="_blank">{{ item.url[0] }}</a>
+{% elsif supp.title == item.title %}{{ sepp }}<a href="/bib-items/{{ item.citekey }}.html">http://scrimhub.org/bib-items/{{ item.citekey }}.html</a>{% endif %}
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

@@ -1,0 +1,32 @@
+{% if page.layout == "single-bib-item" %}
+
+
+{% capture cite %}
+{% if item.kind %}<p style="font-size: 1.2em;">{{ item.kind }} ({% include bib/formatted-date-block.html %})</p>{% else %}<p style="font-size: 1.2em;">{% include bib/formatted-date-block.html %}</p>{% endif %}
+{% endcapture %}
+{{ cite | strip_newlines }}
+{% capture cite %}
+{% assign sepp = ", " %}
+{% if item.department %}<p>{{ item.department }}{% endif %}
+{% if item.school %}{{ sepp }}{{ item.school }}</p>{% endif %}
+{% endcapture %}
+{{ cite | strip_newlines }}
+
+
+{% else %}
+
+
+{% capture cite %}
+{% include bib/formatted-auth-block.html separator="" %}
+{% include bib/formatted-title.html separator=" " %}
+{% if item.kind %}, {{ item.kind }}{% endif %}
+{% if item.department %}, {{ item.department }}{% endif %}
+{% if item.school %}, {{ item.school }}{% endif %}
+{% include bib/formatted-contributors.html separator=", " %}
+{% include bib/formatted-doi-url.html separator=", "%}.
+{% endcapture %}
+
+{{ cite | strip_newlines }}
+
+
+{% endif %}

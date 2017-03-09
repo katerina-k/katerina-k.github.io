@@ -1,0 +1,15 @@
+{% comment %}
+Format the title
+{% endcomment %}
+
+{% assign sepp=include.separator %}
+
+{% assign supp = site.bib-items | where: "citekey", item.citekey %}
+
+{% capture formatted_string %}
+{% if supp[0].title != "" %}{{ sepp }}<b><a href="/bib-items/{{ item.citekey }}.html">{{ item.title }}</a></b>
+{% elsif item.title %}{{ sepp }}<b>{{ item.title }}</b>
+{% else %}{{ sepp }}<b>Title Not Available</b>{% endif %}
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

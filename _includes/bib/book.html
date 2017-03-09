@@ -1,0 +1,29 @@
+{% if page.layout == "single-bib-item" %}
+
+
+{% capture cite %}
+{% if item.booktitle %}<p style="font-size: 1.2em;">Chapter in <i>{{ item.booktitle }}</i> ({% include bib/formatted-date-block.html %})</p>
+{% if item.editor %}<p><b>editors:</b> {% include bib/line-item-editors.html %}</p>{% endif %}
+{% else %}<p>Book Chapter ({% include bib/formatted-date-block.html %})</p>{% endif %}
+{% endcapture %}
+{{ cite | strip_newlines }}
+
+
+{% else %}
+
+
+{% capture cite %}
+{% include bib/formatted-auth-block.html separator="" %}
+{% include bib/formatted-title.html separator=" "%}
+{% if item.booktitle %}, In<i> {{ item.booktitle }}</i>{% endif %}
+{% include bib/formatted-editors.html separator=", " %}
+{% if item.pages %}, {{ item.pages }}{% endif %}
+{% include bib/formatted-publisher-block.html separator=", " %}
+{% include bib/formatted-vpn-block.html separator=", "%}
+{% include bib/formatted-doi-url.html separator=", "%}.
+{% endcapture %}
+
+{{ cite | strip_newlines }}
+
+
+{% endif %}

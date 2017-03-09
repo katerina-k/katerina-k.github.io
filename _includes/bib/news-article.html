@@ -1,0 +1,28 @@
+{% if page.layout == "single-bib-item" %}
+
+
+{% assign sepp = "" %}
+{% capture cite %}
+<p style="font-size: 1.2em;">{% if item.kind %}{{ item.kind }}{% assign sepp = " in " %}{% endif %}
+{% if item.journal %}{{ sepp }}<i>{{ item.journal }}</i>{% endif %}
+ ({% include bib/formatted-date-block.html %})</p>
+{% endcapture %}
+{{ cite | strip_newlines }}
+
+
+{% else %}
+
+
+{% capture cite %}
+{% include bib/formatted-auth-block.html separator="" %}
+{% include bib/formatted-title.html separator=" " %}
+{% if item.kind %}, {{ item.kind }}{% endif %}
+{% if item.journal %},<i> {{ item.journal }}</i>{% endif %}
+{% include bib/formatted-vpn-block.html separator=", " %}
+{% include bib/formatted-doi-url.html separator=", " %}.
+{% endcapture %}
+
+{{ cite | strip_newlines }}
+
+
+{% endif %}

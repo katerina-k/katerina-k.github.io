@@ -1,0 +1,52 @@
+{% comment %}
+Format a full date
+{% endcomment %}
+
+{% assign sepp=include.separator %}
+
+{% capture formatted_string %}
+{% if item.published.day %}{{ sepp }}{{ item.published.day }}{% assign sepp = " " %}{% endif %}
+{% if item.published.month %}
+{% case item.published.month %}
+{% when '1' %}
+{{ sepp }}January
+{% assign sepp = " " %}
+{% when '2' %}
+{{ sepp }}February
+{% assign sepp = " " %}
+{% when '3' %}
+{{ sepp }}March
+{% assign sepp = " " %}
+{% when '4' %}
+{{ sepp }}April
+{% assign sepp = " " %}
+{% when '5' %}
+{{ sepp }}May
+{% assign sepp = " " %}
+{% when '6' %}
+{{ sepp }}June
+{% assign sepp = " " %}
+{% when '7' %}
+{{ sepp }}July
+{% assign sepp = " " %}
+{% when '8' %}
+{{ sepp }}August
+{% assign sepp = " " %}
+{% when '9' %}
+{{ sepp }}September
+{% assign sepp = " " %}
+{% when '10' %}
+{{ sepp }}October
+{% assign sepp = " " %}
+{% when '11' %}
+{{ sepp }}November
+{% assign sepp = " " %}
+{% when '12' %}
+{{ sepp }}December
+{% assign sepp = " " %}
+{% endcase %}
+{% endif %}
+{% if item.published.year %}{{ sepp }}{{ item.published.year }}{% endif %}
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

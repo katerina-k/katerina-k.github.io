@@ -1,0 +1,25 @@
+{% if page.layout == "single-bib-item" %}
+
+
+<p>{% include bib/formatted-date-block.html %}</p>
+{% if item.conference %}<p style="font-size: 1.2em;">Part of <i>{{ item.conference }}</i>{% if item.conference_date.literal %} ({{ item.conference_date.literal }}){% endif %}</p>{% endif %}
+{% if item.conference_location %}<p><b>location:</b> {{ item.conference_location }}</p>{% endif %}
+
+
+{% else %}
+
+
+{% capture cite %}
+{% include bib/formatted-auth-block.html separator="" %}
+{% include bib/formatted-title.html separator=" " %}
+{% if item.booktitle %}, {{ item.booktitle }}{% else %}
+{% if item.conference %}, {{ item.conference }}{% endif %}
+{% if item.conference_location %}, {{ item.conference_location }}{% endif %}{% endif %}
+{% include bib/formatted-doi-url.html separator=", " %}
+{% if item.conference_date.literal %}, {{ item.conference_date.literal }}{% endif %}.
+{% endcapture %}
+
+{{ cite | strip_newlines }}
+
+
+{% endif %}

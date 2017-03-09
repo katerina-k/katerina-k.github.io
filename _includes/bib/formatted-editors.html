@@ -1,0 +1,12 @@
+{% comment %}
+Format the editors
+{% endcomment %}
+
+{% assign sepp=include.separator %}
+
+{% capture formatted_string %}
+{% if item.editor %}{{ sepp }}[
+{% for ed in item.editor %}{% unless forloop.first %}{% if forloop.last %}, and {% else %}, {% endif %}{% endunless %}{{ ed.initials }} {{ ed.last }}{% endfor %} (ed{% if item.editor.size > 1 %}s{% endif %})]{% endif %}
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

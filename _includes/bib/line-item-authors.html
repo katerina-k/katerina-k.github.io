@@ -1,0 +1,25 @@
+{% comment %}
+Format author names as a single line
+{% endcomment %}
+
+{% capture formatted_string %}
+{% if item.author %}
+{% for a in item.author %}
+{% if forloop.last %}
+{% unless forloop.first %}
+{% capture numAuth %}{{ item.author | size }}{% endcapture %}
+{% if numAuth == '2' %} and {% else %}, and {% endif %}
+{% endunless %}
+{% else %}
+{% unless forloop.first %}, {% endunless %}
+{% endif %}
+{% if a.initials %}{% include bib/formatted-initials.html initials=a.initials %}{% if a.last %} {{ a.last }}{% endif %}
+{% elsif a.first %}{{ a.first }}{% if a.last %} {{ a.last }}
+{% endif %}
+{% else %}{{ a.bak }}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

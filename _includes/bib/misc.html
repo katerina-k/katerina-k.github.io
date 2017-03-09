@@ -1,0 +1,24 @@
+{% if page.layout == "single-bib-item" %}
+
+
+{% capture cite %}
+<p style="font-size: 1.2em;">{% if item.howpublished %}<i>{{ item.howpublished }}</i> ({% include bib/formatted-date-block.html %}){% else %}{% include bib/formatted-date-block.html %}{% endif %}
+</p>
+{% endcapture %}
+{{ cite | strip_newlines }}
+
+
+{% else %}
+
+
+{% capture cite %}
+{% include bib/formatted-auth-block.html separator="" %}
+{% include bib/formatted-title.html separator=" " %}
+{% if item.howpublished %}, {{ item.howpublished }}{% endif %}
+{% include bib/formatted-doi-url.html separator=", " %}.
+{% endcapture %}
+
+{{ cite | strip_newlines }}
+
+
+{% endif %}

@@ -1,0 +1,9 @@
+{% comment %}
+Citation download
+{% endcomment %}
+
+{% capture formatted_string %}
+<p><b>cite:</b> <a href="/bib/downloads/{{ item.citekey }}.bib" download>BibTeX</a> | <a href="/bib/downloads/{{ item.citekey }}.enl" download>EndNote</a> | <a href="/bib/downloads/{{ item.citekey }}.ris" download>RIS</a></p>
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

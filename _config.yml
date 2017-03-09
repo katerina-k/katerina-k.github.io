@@ -257,4 +257,8 @@ asciidoctor:
 collections:
   participants:
   news:   
-  events: 
+  events:
+  bib-supplemental:
+  bib-items:
+    output: true
+  bib:

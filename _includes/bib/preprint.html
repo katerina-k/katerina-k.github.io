@@ -1,0 +1,25 @@
+{% if page.layout == "single-bib-item" %}
+
+
+{% capture cite %}
+{% if item.journal %}<p style="font-size: 1.2em;">{{ item.journal }} ({% include bib/formatted-date-block.html %})</p>{% else %}<p style="font-size: 1.2em;">{% include bib/formatted-date-block.html %}</p>{% endif %}
+{% endcapture %}
+{{ cite | strip_newlines }}
+{% if item.institution %}<p>{{ item.institution }}</p>{% endif %}
+
+
+{% else %}
+
+
+{% capture cite %}
+{% include bib/formatted-auth-block.html separator="" %}
+{% include bib/formatted-title.html separator=" " %}
+{% if item.journal %}, {{ item.journal }}{% endif %}
+{% if item.institution %}, {{ item.institution }}{% endif %}
+{% include bib/formatted-doi-url.html separator=", "%}.
+{% endcapture %}
+
+{{ cite | strip_newlines }}
+
+
+{% endif %}

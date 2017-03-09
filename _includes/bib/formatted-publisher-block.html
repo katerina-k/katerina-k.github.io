@@ -1,0 +1,12 @@
+{% comment %}
+Format the publisher block
+{% endcomment %}
+
+{% assign sepp=include.separator %}
+
+{% capture formatted_string %}
+{% if item.address %}{{ sepp }}{{ item.address }}{% assign sepp=": " %}{% endif %}
+{% if item.publisher %}{{ sepp }}{{ item.publisher }}{% endif %}
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

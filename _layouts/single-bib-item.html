@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="page-header">
+  <br><h1 class="tagline" style="margin-bottom: 30px;"><small style="font-size: 50%;">SCRiM-Supported Publication</small></h1>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+
+<p style="font-size: 1.7em;">{{ page.title }}</p>
+
+{% assign pubs = site.bib | where: 'title', 'scrim_publications' %}
+{% assign pub = pubs[0].items | where: 'citekey', page.citekey %}
+{% assign suppl = site.bib-supplemental | where: 'citekey', page.citekey %}
+{% assign supp-item = suppl[0] %}
+
+{% assign item = pub[0] %}
+
+{% if item.author %}<p style="font-size: 1.2em;">{% include bib/line-item-authors.html %}</p>{% endif %}
+
+{% if item.pubtype == "PP_PREPRINT" %}
+{% include bib/preprint.html %}
+{% elsif item.pubtype == "PP_PRESENTATION" %}
+{% include bib/presentation.html %}
+{% elsif item.pubtype == "PP_BOOK_CHAPTER" %}
+{% include bib/book.html %}
+{% elsif item.pubtype == "PP_THESIS" %}
+{% include bib/thesis.html %}
+{% elsif item.pubtype == "PP_REPORT" %}
+{% include bib/report.html %}
+{% elsif item.pubtype == "PP_MISC" %}
+{% include bib/misc.html %}
+{% elsif item.pubtype == "PP_CONFERENCE_PAPER" %}
+{% include bib/conference.html %}
+{% elsif item.pubtype == "PP_NEWS_ARTICLE" %}
+{% include bib/news-article.html %}
+{% elsif item.pubtype == "PP_ARTICLE" %}
+{% include bib/journal-article.html %}
+{% else %}
+{% include bib/default.html %}
+{% endif %}
+
+{% if item.doi %}<p><b>DOI:</b> <a href="http://dx.doi.org/{{ item.doi }}" target="_blank">{{ item.doi }}</a></p>
+{% elsif item.url[0] %}<p><b>URL:</b> <a href="{{ item.url[0] }}" target="_blank">{{ item.url[0] }}</a></p>{% endif %}
+
+{% if page.abstract %}<p>{{ page.abstract }}</p>{% else %}<p><i>no abstract available</i></p>{% endif %}
+
+{% if item.keywords %}<p><b>keywords:</b> {{ item.keywords }}</p>{% endif %}
+
+{% if supp-item.content %}{{ supp-item.content }}{% endif %}
+
+{% include bib/line-item-downloads.html %}
+
+  </div>
+</div>

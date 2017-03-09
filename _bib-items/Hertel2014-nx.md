@@ -1,0 +1,110 @@
+---
+layout: single-bib-item
+hidden: true
+dup_sha1: "0d28b42a47f0f15dde2789620fb3fda71d083f0c"
+attachments:
+  -
+    mimeType: "application/pdf"
+    pub_id: "e6ed9543-dfb0-09b6-9661-cdffcbcf30fa"
+    updated: "1488223401.41"
+    source_filename: "[article_pdf].pdf"
+    article_pdf: "1"
+    created: "1488223401.41"
+    filename: "Hertel et al. 2014 - Global market integration increases likelihood that ... rican Green Revolution could increase crop land use and CO<sub>2</sub> emissions.pdf"
+    hasUpdates: "1"
+    subfolders:
+      - "All Papers/H"
+    filesize: "813058"
+    gdrive_needs_sync: "0"
+    owner: "42827BEAD59011E587B2D52D02D06A8F"
+    pub_trashed: "0"
+    _id: "8303a060-ac44-0480-bf98-12f03d9e1e2a"
+    gdrive_id: "0BzNObtVOlCh_YV9za1g0RThidGs"
+    md5: "bbf65aec7c81a353766eb7a834679ad9"
+issn_alt: "1091-6490"
+duplicates:
+abstract: "There has been a resurgence of interest in the impacts of agricultural productivity on land use and the environment. At the center of this debate is the assertion that agricultural innovation is land sparing. However, numerous case studies and global empirical studies have found little evidence of higher yields being accompanied by reduced area. We find that these studies overlook two crucial factors: estimation of a true counterfactual scenario and a tendency to adopt a regional, rather than a global, perspective. This paper introduces a general framework for analyzing the impacts of regional and global innovation on long run crop output, prices, land rents, land use, and associated CO<sub>2</sub> emissions. In so doing, it facilitates a reconciliation of the apparently conflicting views of the impacts of agricultural productivity growth on global land use and environmental quality. Our historical analysis demonstrates that the Green Revolution in Asia, Latin America, and the Middle East was unambiguously land and emissions sparing, compared with a counterfactual world without these innovations. In contrast, we find that the environmental impacts of a prospective African Green Revolution are potentially ambiguous. We trace these divergent outcomes to relative differences between the innovating region and the rest of the world in yields, emissions efficiencies, cropland supply response, and intensification potential. Globalization of agriculture raises the potential for adverse environmental consequences. However, if sustained for several decades, an African Green Revolution will eventually become land sparing."
+labels:
+  - "e589e1f3-3708-005f-b5a2-1b034dc7ddc2"
+citedByLink: "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1073/pnas.1403543111"
+citekey: "Hertel2014-nx"
+autoCleaned: "1"
+pmc: "PMC4183291"
+owner: "42827BEAD59011E587B2D52D02D06A8F"
+autocompleted: "1"
+foldersNamed:
+imported: "1"
+author:
+  -
+    initials: "TW"
+    _id: "0bc66c93-0866-0cb0-b1c8-f98297db0018"
+    last: "Hertel"
+    formatted: "Hertel TW"
+    first: "Thomas W"
+  -
+    initials: "N"
+    _id: "62a4c806-c211-0328-b8cd-a158362efdfb"
+    last: "Ramankutty"
+    formatted: "Ramankutty N"
+    first: "Navin"
+  -
+    initials: "UL"
+    _id: "99b21183-b168-0ee1-9ed2-66088bba5f79"
+    last: "Baldos"
+    formatted: "Baldos UL"
+    first: "Uris Lantz C"
+subfolders:
+  - "All Papers/H"
+pmid: "25201962"
+issue: "38"
+folders:
+updated: "1488223474.58"
+published_date: "2014"
+affiliation: "Department of Agricultural Economics, Purdue University, West Lafayette, IN 47907; and hertel@purdue.edu. Department of Geography, McGill University, Montreal, QC, Canada H3A 0B9. Department of Agricultural Economics, Purdue University, West Lafayette, IN 47907; and."
+journal: "Proc. Natl. Acad. Sci. U. S. A."
+labelsNamed:
+  - "pches_publications"
+journalfull: "Proceedings of the National Academy of Sciences of the United States of America"
+volume: "111"
+pdf_restricted: "0"
+doi: "10.1073/pnas.1403543111"
+authors: "Hertel, TW, N Ramankutty and UL Baldos"
+journal_checked: "1"
+pages: "13799-13804"
+kind: "Research Article"
+sha1: "b5b5f6dd3b6d25438a4195642f62738ede78d90c"
+language: "en"
+created: "1488223397.81"
+url:
+  - "http://dx.doi.org/10.1073/pnas.1403543111"
+  - "https://www.ncbi.nlm.nih.gov/pubmed/25201962"
+  - "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4183291"
+  - "http://www.pnas.org/cgi/pmidlookup?view=long&pmid=25201962"
+issn: "0027-8424"
+pubtype: "PP_ARTICLE"
+keywords: "Carbon Dioxide; Crop Competition for Land; Emissions; Food Security; Food Trade"
+published:
+  month: "9"
+  day: "23"
+  year: "2014"
+id_list:
+  - "sha1:b5b5f6dd3b6d25438a4195642f62738ede78d90c"
+  - "dup_sha1:0d28b42a47f0f15dde2789620fb3fda71d083f0c"
+  - "doi:10.1073/pnas.1403543111"
+  - "pmc:PMC4183291"
+  - "pmid:25201962"
+  - "url:http://dx.doi.org/10.1073/pnas.1403543111"
+  - "url:https://www.ncbi.nlm.nih.gov/pubmed/25201962"
+  - "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4183291"
+  - "url:http://www.pnas.org/cgi/pmidlookup?view=long&pmid=25201962"
+  - "url:http://www.pnas.org/cgi/doi/10.1073/pnas.1403543111"
+  - "url:http://www.pnas.org/lookup/doi/10.1073/pnas.1403543111"
+  - "url:http://www.pnas.org/content/111/38/13799"
+title: "Global market integration increases likelihood that a future African Green Revolution could increase crop land use and CO<sub>2</sub> emissions"
+crawl_urls:
+  - "http://dx.doi.org/10.1073/pnas.1403543111"
+  - "http://www.pnas.org/cgi/doi/10.1073/pnas.1403543111"
+  - "http://www.pnas.org/lookup/doi/10.1073/pnas.1403543111"
+  - "http://www.pnas.org/content/111/38/13799"
+incomplete: "0"
+---

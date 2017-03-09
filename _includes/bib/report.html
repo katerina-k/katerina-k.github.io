@@ -1,0 +1,27 @@
+{% if page.layout == "single-bib-item" %}
+
+
+{% capture cite %}
+<p style="font-size: 1.2em;">Report ({% include bib/formatted-date-block.html %})</p>
+{% endcapture %}
+{{ cite | strip_newlines }}
+{% if item.institution %}<p><b>institution:</b> {{ item.institution }}</p>{% elsif item.publisher %}<p><b>publisher:</b> {{ item.publisher }}</p>{% endif %}
+{% if item.number %}<p><b>report number:</b> {{ item.number }}</p>{% endif %}
+
+
+{% else %}
+
+
+{% capture cite %}
+{% include bib/formatted-auth-block.html separator="" %}
+{% include bib/formatted-title.html separator=" " %}
+{% if item.institution %}, Report,<i> {{ item.institution }}</i>
+{% elsif item.publisher %}, Report,<i> {{ item.publisher }}</i>{% endif %}
+{% if item.number %}, {{ item.number }}{% endif %}
+{% include bib/formatted-doi-url.html separator=", " %}.
+{% endcapture %}
+
+{{ cite | strip_newlines }}
+
+
+{% endif %}

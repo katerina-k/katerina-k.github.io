@@ -1,0 +1,42 @@
+{% assign years = "0000" %}
+{% for b in site.bib %}
+{% if b.title == page.tag %}{% assign items = b.items %}
+{% assign count = items.size %}
+{% for item in items %}
+{% if forloop.first %}
+<br><h3>{{ item.published_date }}</h3><hr class="publications">
+{% assign years = item.published_date %}
+<table class="pubs">
+{% elsif item.published_date != years %}
+</table><br>
+<h3>{{ item.published_date }}</h3><hr class="publications">
+{% assign years = item.published_date %}
+<table class="pubs">
+{% endif %}
+<tr class='reference-row'><td align=left width=5% valign=top>[{{ count }}]</td><td class='reference-item'>
+{% if item.pubtype == "PP_PREPRINT" %}
+{% include bib/preprint.html %}
+{% elsif item.pubtype == "PP_PRESENTATION" %}
+{% include bib/presentation.html %}
+{% elsif item.pubtype == "PP_BOOK_CHAPTER" %}
+{% include bib/book.html %}
+{% elsif item.pubtype == "PP_THESIS" %}
+{% include bib/thesis.html %}
+{% elsif item.pubtype == "PP_REPORT" %}
+{% include bib/report.html %}
+{% elsif item.pubtype == "PP_MISC" %}
+{% include bib/misc.html %}
+{% elsif item.pubtype == "PP_CONFERENCE_PAPER" %}
+{% include bib/conference.html %}
+{% elsif item.pubtype == "PP_NEWS_ARTICLE" %}
+{% include bib/news-article.html %}
+{% elsif item.pubtype == "PP_ARTICLE" %}
+{% include bib/journal-article.html %}
+{% else %}
+{% include bib/default.html %}
+{% endif %}
+</td></tr>
+{% assign count = count | minus:1 %}
+{% endfor %}{% endif %}
+{% endfor %}
+</table>

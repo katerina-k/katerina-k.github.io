@@ -1,0 +1,26 @@
+{% if page.layout == "single-bib-item" %}
+
+
+{% capture cite %}
+{% if item.conference %}<p style="font-size: 1.2em;"><i>{{ item.conference }}</i><p> ({% include bib/formatted-date-block.html %})</p>{% else %}<p>{% include bib/formatted-date-block.html %}</p>{% endif %}
+{% if item.address %}<p><b>location:</b> {{ item.address }}</p>{% endif %}
+{% endcapture %}
+{{ cite | strip_newlines }}
+
+
+{% else %}
+
+
+{% capture cite %}
+{% include bib/formatted-auth-block.html separator="" %}
+{% include bib/formatted-title.html separator=" " %}
+{% if item.kind == "Poster presentation" %}, Poster{% endif %}
+{% if item.conference %}, <i>{{ item.conference }}</i>{% endif %}
+{% if item.address %}, {{ item.address }}{% endif %}
+{% include bib/formatted-date-block.html separator=", " %}.
+{% endcapture %}
+
+{{ cite | strip_newlines }}
+
+
+{% endif %}

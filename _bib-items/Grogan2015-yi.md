@@ -1,0 +1,135 @@
+---
+layout: single-bib-item
+hidden: true
+dup_sha1: "8cb0d7fbf32db582ab22c035f3cb23fd734f2854"
+attachments:
+  -
+    mimeType: "application/pdf"
+    pub_id: "43435f5b-5748-0c97-b355-b9835a79f059"
+    updated: "1488223694.99"
+    source_filename: "[article_pdf].pdf"
+    article_pdf: "1"
+    created: "1488223694.99"
+    filename: "Grogan et al. 2015 - Quantifying the link between crop production and mined groundwater irrigation in China.pdf"
+    hasUpdates: "1"
+    subfolders:
+      - "All Papers/G"
+    filesize: "3221041"
+    gdrive_needs_sync: "0"
+    owner: "42827BEAD59011E587B2D52D02D06A8F"
+    pub_trashed: "0"
+    _id: "e6e26fed-db03-005a-8ce0-08c83a55f8ee"
+    gdrive_id: "0BzNObtVOlCh_RmdZUnpNRWs0SkU"
+    md5: "50fb5c20f273ebfd0300ba194c791783"
+issn_alt: "1879-1026"
+duplicates:
+abstract: "In response to increasing demand for food, Chinese agriculture has both expanded and intensified over the past several decades. Irrigation has played a key role in increasing crop production, and groundwater is now an important source of irrigation water. Groundwater abstraction in excess of recharge (which we use here to estimate groundwater mining) has resulted in declining groundwater levels and could eventually restrict groundwater availability. In this study we used a hydrological model, WBMplus, in conjunction with a process based crop growth model, DNDC, to evaluate Chinese agriculture's recent dependence upon mined groundwater, and to quantify mined groundwater-dependent crop production across a domain that includes variation in climate, crop choice, and management practices. This methodology allowed for the direct attribution of crop production to irrigation water from rivers and reservoirs, shallow (renewable) groundwater, and mined groundwater. Simulating 20 years of weather variability and circa year 2000 crop areas, we found that mined groundwater fulfilled 20%-49% of gross irrigation water demand, assuming all demand was met. Mined groundwater accounted for 15%-27% of national total crop production. There was high spatial variability across China in irrigation water demand and crop production derived from mined groundwater. We find that climate variability and mined groundwater demand do not operate independently; rather, years in which irrigation water demand is high due to the relatively hot and dry climate also experience limited surface water supplies and therefore have less surface water with which to meet that high irrigation water demand."
+labels:
+  - "e589e1f3-3708-005f-b5a2-1b034dc7ddc2"
+citedByLink: "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1016/j.scitotenv.2014.11.076"
+citekey: "Grogan2015-yi"
+autoCleaned: "1"
+owner: "42827BEAD59011E587B2D52D02D06A8F"
+autocompleted: "1"
+foldersNamed:
+imported: "1"
+author:
+  -
+    initials: "DS"
+    _id: "2f546ebe-6376-09d6-a019-b8cc2788e598"
+    last: "Grogan"
+    formatted: "Grogan DS"
+    first: "Danielle S"
+  -
+    initials: "F"
+    _id: "85a9d4b2-5182-0164-9332-5f0df0515fe3"
+    last: "Zhang"
+    formatted: "Zhang F"
+    first: "Fan"
+  -
+    initials: "A"
+    _id: "2f427635-981c-0d3e-aa20-0254b817f83e"
+    last: "Prusevich"
+    formatted: "Prusevich A"
+    first: "Alexander"
+  -
+    initials: "RB"
+    _id: "2c79f17e-46f3-0dc9-a219-ede27ac43f99"
+    last: "Lammers"
+    formatted: "Lammers RB"
+    first: "Richard B"
+  -
+    initials: "D"
+    _id: "768fda3a-59e7-074c-b062-bcdf28222879"
+    last: "Wisser"
+    formatted: "Wisser D"
+    first: "Dominik"
+  -
+    initials: "S"
+    _id: "c77677f3-4208-0c3c-87b4-40527fcc25d2"
+    last: "Glidden"
+    formatted: "Glidden S"
+    first: "Stanley"
+  -
+    initials: "C"
+    _id: "2c794991-549d-0ae9-b84d-74008e2d768c"
+    last: "Li"
+    formatted: "Li C"
+    first: "Changsheng"
+  -
+    initials: "S"
+    _id: "4f12ae9a-338e-0833-affa-b57494b400f2"
+    last: "Frolking"
+    formatted: "Frolking S"
+    first: "Steve"
+subfolders:
+  - "All Papers/G"
+pmid: "25544335"
+folders:
+updated: "1488223764.92"
+published_date: "2015"
+affiliation: "Institute for the Study of Earth, Oceans, and Space, University of New Hampshire, Durham, NH, USA. Electronic address: danielle.grogan@wildcats.unh.edu. Department of Environmental Science and Technology, School of Human Settlement and Civil Engineering, Xi'an Jiaotong University, Xi'an China. Institute for the Study of Earth, Oceans, and Space, University of New Hampshire, Durham, NH, USA. Institute for the Study of Earth, Oceans, and Space, University of New Hampshire, Durham, NH, USA. Institute for the Study of Earth, Oceans, and Space, University of New Hampshire, Durham, NH, USA; Center for Development Research, University of Bonn, Bonn, Germany. Institute for the Study of Earth, Oceans, and Space, University of New Hampshire, Durham, NH, USA. Institute for the Study of Earth, Oceans, and Space, University of New Hampshire, Durham, NH, USA. Institute for the Study of Earth, Oceans, and Space, University of New Hampshire, Durham, NH, USA."
+journal: "Sci. Total Environ."
+labelsNamed:
+  - "pches_publications"
+journalfull: "The Science of the total environment"
+volume: "511"
+pdf_restricted: "0"
+doi: "10.1016/j.scitotenv.2014.11.076"
+authors: "Grogan, DS, F Zhang, A Prusevich, RB Lammers, D Wisser, S Glidden, C Li and S Frolking"
+journal_checked: "1"
+pages: "161-175"
+kind: "Research Article"
+sha1: "caba1090d85dddf494a1d2246629350f46fef70f"
+language: "en"
+created: "1488223691.6"
+url:
+  - "http://dx.doi.org/10.1016/j.scitotenv.2014.11.076"
+  - "https://www.ncbi.nlm.nih.gov/pubmed/25544335"
+  - "https://linkinghub.elsevier.com/retrieve/pii/S0048-9697(14)01670-2"
+issn: "0048-9697"
+pubtype: "PP_ARTICLE"
+keywords: "Agriculture; China; Food Security; Ground Water Impacts; Health; Water"
+published:
+  month: "4"
+  day: "1"
+  year: "2015"
+id_list:
+  - "sha1:caba1090d85dddf494a1d2246629350f46fef70f"
+  - "dup_sha1:8cb0d7fbf32db582ab22c035f3cb23fd734f2854"
+  - "doi:10.1016/j.scitotenv.2014.11.076"
+  - "pmid:25544335"
+  - "url:http://dx.doi.org/10.1016/j.scitotenv.2014.11.076"
+  - "url:https://www.ncbi.nlm.nih.gov/pubmed/25544335"
+  - "url:https://linkinghub.elsevier.com/retrieve/pii/S0048-9697(14)01670-2"
+  - "url:http://linkinghub.elsevier.com/retrieve/pii/S0048969714016702"
+  - "url:http://linkinghub.elsevier.com/retrieve/articleSelectSinglePerm?Redirect=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0048969714016702%3Fvia%253Dihub&key=ea35da99157a32a88cb9cfb46ab2cd046b00aca5"
+  - "url:http://www.sciencedirect.com/science/article/pii/S0048969714016702?via%3Dihub"
+title: "Quantifying the link between crop production and mined groundwater irrigation in China"
+crawl_urls:
+  - "http://dx.doi.org/10.1016/j.scitotenv.2014.11.076"
+  - "http://linkinghub.elsevier.com/retrieve/pii/S0048969714016702"
+  - "http://linkinghub.elsevier.com/retrieve/articleSelectSinglePerm?Redirect=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0048969714016702%3Fvia%253Dihub&key=ea35da99157a32a88cb9cfb46ab2cd046b00aca5"
+  - "http://www.sciencedirect.com/science/article/pii/S0048969714016702?via%3Dihub"
+incomplete: "0"
+---

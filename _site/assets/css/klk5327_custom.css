@@ -10,6 +10,7 @@ hr {
 	
 p {
   hyphens: none;
+  margin-bottom: 10px;
   }
 	
 time.icon {
@@ -65,3 +66,43 @@ div.subheader-3 {
 dt {
   padding-top: 15px;
   }
+  
+div.date {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #8A8A8A;
+  }
+  
+ *References
+ *
+ */
+.reference-row {
+    font-size: 14px;
+}
+
+.reference-row tr {
+    font-size: 14px;
+    border-color: #ffffff;
+}
+
+table tr.even {
+    background: #ffffff;
+  }
+
+table tr.alt {
+    background: #ffffff;
+  }
+  
+table.pubs tr.even, table.pubs tr.alt, table.pubs tr:nth-of-type(even) {
+    background: #ffffff;
+    }
+    
+table.pubs {
+  border-color: #ffffff;
+  } 
+  
+.reference-row td, .reference-row tr td {
+    padding-bottom: 10px;
+}
+
+  

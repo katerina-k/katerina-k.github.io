@@ -1,0 +1,12 @@
+{% comment %}
+Format the author/date block
+{% endcomment %}
+
+{% assign sepp=include.separator %}
+
+{% capture formatted_string %}
+{% if item.authors %}{{ sepp }}{{ item.authors }}{% assign sepp = " "%}{% endif %}
+{% if item.published_date %}{{ sepp }}({{ item.published_date }}){% endif %}:
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

@@ -1,0 +1,12 @@
+{% comment %}
+Format the contributors
+{% endcomment %}
+
+{% assign sepp=include.separator %}
+
+{% capture formatted_string %}
+{% if item.contributor %}{{ sepp }}[
+{% for ed in item.contributor %}{% unless forloop.first %}{% if forloop.last %}, and {% else %}, {% endif %}{% endunless %}{{ ed.initials }} {{ ed.last }}{% endfor %} (contributor{% if item.contributor.size > 1 %}s{% endif %})]{% endif %}
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

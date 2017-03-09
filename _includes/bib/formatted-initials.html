@@ -1,0 +1,13 @@
+{% comment %}
+Format the initials
+{% endcomment %}
+
+{% assign init_string = include.initials | split: '' %}
+
+{% capture formatted_string %}
+{% for i in init_string %}
+{{ i }}. 
+{% endfor %}
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}

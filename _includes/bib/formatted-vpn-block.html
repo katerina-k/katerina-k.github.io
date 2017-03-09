@@ -1,0 +1,13 @@
+{% comment %}
+Format the volume/number/pages block
+{% endcomment %}
+
+{% assign sepp=include.separator %}
+
+{% capture formatted_string %}
+{% if item.volume %}{{ sepp }}<b>{{ item.volume }}</b>{% endif %}
+{% if item.issue %}({{ item.issue }}){% endif %}
+{% if item.pages %}{{ sepp }}{{ item.pages }}{% endif %}
+{% endcapture %}
+
+{{ formatted_string | strip_newlines }}
