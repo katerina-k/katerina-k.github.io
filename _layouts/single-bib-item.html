@@ -1,17 +1,14 @@
 ---
 layout: default
 ---
-
-<div class="page-header">
-  <br><h1 class="tagline" style="margin-bottom: 30px;"><small style="font-size: 50%;">SCRiM-Supported Publication</small></h1>
-</div>
+<br>
 
 <div class="row">
   <div class="col-xs-12">
 
 <p style="font-size: 1.7em;">{{ page.title }}</p>
 
-{% assign pubs = site.bib | where: 'title', 'scrim_publications' %}
+{% assign pubs = site.bib | where: 'title', 'pches_publications' %}
 {% assign pub = pubs[0].items | where: 'citekey', page.citekey %}
 {% assign suppl = site.bib-supplemental | where: 'citekey', page.citekey %}
 {% assign supp-item = suppl[0] %}
