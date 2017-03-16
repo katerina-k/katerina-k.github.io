@@ -7,5 +7,5 @@ email: lbf10@psu.edu
 about: |
     Senior Lecturer, Penn State Law, Penn State<br>
     Research Fellow, Penn State Institutes of Energy and the Environment, Penn State
-tag: [scientist]
+tag: [senior-per]
 ---

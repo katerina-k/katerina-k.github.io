@@ -7,5 +7,5 @@ email: jshortle@psu.edu
 about: |
     Distinguished Professor, Department of Agricultural Economics, Sociology, and Education, Penn State<br>
     Director, Environment and Natural Resources Institute, Penn State (<a href="http://agsci.psu.edu/enri" target="_blank">ENRI</a>)
-tag: [scientist]
+tag: [senior-per]
 ---
