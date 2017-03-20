@@ -30,12 +30,14 @@ header:
 </section>
 </div>
 
+<br>
+
 {% endif %}
 {% endfor %}
 
 ### Past Events
 <hr>
-{% for event in site.events %}
+{% for event in site.events reversed %}
 {% unless event.featured %}
 
 <div class = "row">
@@ -50,12 +52,14 @@ header:
 <section class="medium-10 columns">
 	<strong>{{ event.title }}</strong> <br>
 	{{ event.subtitle }} <br>
-	{{ event.date | date: "%-d %B %Y" }}<br>
+	{{ event.date | date: "%-A %d %B %Y" }}<br>
 	<i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;{{ event.location }}<br>
 	{% if event.web %}
    <a href="{{ event.web['url'] }}" {% if event.web['external'] == "true" %}target="_blank"{% endif %} style="white-space: nowrap;"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; Event Info</a>{% endif %}
 </section>
 </div>
+
+<br>
 
 {% endunless %}
 {% endfor %}
