@@ -7,7 +7,7 @@
 
 layout: frontpage
 header:
-  image_fullwidth: wind-turbines.jpg
+  image_fullwidth: power-lines.jpg
 widget1:
   title: "About PCHES"
   url: '/about/'
@@ -18,7 +18,7 @@ widget2:
   title: "Upcoming Events"
   image: italy-highway.jpg
   url: '/events/'
-  text: '<strong>Dr. Presentalot</strong><br> Special Seminar: The Art of Presenting <br> 10 January 2017 <br> <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;117 EES, Penn State <br> <a href src="http://news.psu.edu/story/444275/2017/01/10/project-develop-computational-tools-coupled-human-natural-systems" target="_blank"> <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Event Info </a>'
+  text: '<strong>Presenter Name</strong><br> Seminar Series: Talk Title <br> 22 March 2017 <br> <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Room/Bulding, Institution <br> <a href src="http://news.psu.edu/story/444275/2017/01/10/project-develop-computational-tools-coupled-human-natural-systems" target="_blank"> <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Event Info </a>'
 
 widget3:
   title: "Featured News"

@@ -47,7 +47,7 @@ header:
 	</time>
 </section>
 
-<section class="medium-9 columns">
+<section class="medium-10 columns">
 	<strong>{{ event.title }}</strong> <br>
 	{{ event.subtitle }} <br>
 	{{ event.date | date: "%-d %B %Y" }}<br>
