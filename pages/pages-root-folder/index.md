@@ -18,7 +18,6 @@ widget2:
   title: "Upcoming Events"
   image: italy-highway.jpg
   url: '/events/'
-  text: '<strong>Presenter Name</strong><br> Seminar Series: Talk Title <br> 22 March 2017 <br> <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Room/Bulding, Institution <br> <a href src="http://news.psu.edu/story/444275/2017/01/10/project-develop-computational-tools-coupled-human-natural-systems" target="_blank"> <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Event Info </a>'
 
 widget3:
   title: "Featured News"

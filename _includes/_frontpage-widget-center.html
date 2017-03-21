@@ -1,0 +1,30 @@
+<div class="medium-4 columns frontpage-widget">
+	{% capture widget_url %}{% if include.widget.url contains 'http' %}{{ include.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}{% endcapture %}
+	{% if include.widget.video %}
+		{{ include.widget.video }}
+	{% else %}
+		<a href="{{ widget_url }}">
+			{% if include.widget.image %}
+				
+				{% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ include.widget.image }}{% endif %}{% endcapture %}
+				<img src="{{widget_image}}" alt="" />
+				
+			{% endif %}
+		</a>
+	{% endif %}
+	<h2 class="font-size-h3 t10">{{ include.widget.title }}</h2>
+	
+	{% assign front_page = site.events | where:"featured","true" %}
+		
+	<strong>{{ front_page[0].title }}</strong> <br>
+	{{ front_page[0].subtitle }} <br>
+	{{ front_page[0].date | date: "%-d %B %Y" }}<br>
+	<i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;{{ front_page[0].location }}<br>
+	{% if front_page[0].web %}
+   <a href="{{ event.web['url'] }}" {% if event.web['external'] == "true" %}target="_blank"{% endif %} style="white-space: nowrap;"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp; Event Info</a>{% endif %}
+   <br>
+
+
+	
+	<p><a class="button tiny radius" href="{% if include.widget.url contains 'http' %}{{ include.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}">{{ site.data.language.more }}</a></p>
+</div>
