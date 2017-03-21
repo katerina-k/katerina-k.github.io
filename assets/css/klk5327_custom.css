@@ -78,9 +78,7 @@ div.date {
   color: #8A8A8A;
   }
   
- *References
- *
- */
+ /*References */
 .reference-row {
     font-size: 14px;
 }
@@ -110,4 +108,13 @@ table.pubs {
     padding-bottom: 10px;
 }
 
+/* Footer */
+ul.footer li {
+  list-style-type: circle;
+  display: inline;
+  }
+  
+ul.footer {
+  list-style-type: circle;
+  }
   

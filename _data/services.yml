@@ -4,14 +4,11 @@
   url: "/contact/"
   title: "Contact"
 
-- name: "RSS"
-  url: "/feed.xml"
-  title: "Subscribe to RSS Feed"
-
-- name: "Atom"
-  url: "/atom.xml"
-  title: "Subscribe to Atom Feed"
+- name: "Privacy and Legal Statements"
+  url: "http://www.psu.edu/legal-statements"
+  title: "Privacy and Legal Statements"
 
 - name: "sitemap.xml"
   url: "/sitemap.xml"
   title: "Sitemap for Google Webmaster Tools"
+  
