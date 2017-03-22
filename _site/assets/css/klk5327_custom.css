@@ -103,13 +103,12 @@ table.pubs {
     padding-bottom: 10px;
 }
 
-/* Footer */
 ul.footer li {
   list-style-type: circle;
   display: inline;
   }
-  
-ul.footer {
-  list-style-type: circle;
-  }
+
+#footer a:hover {
+        color: #A1D044;
+    }
   
