@@ -6,7 +6,7 @@ header:
   image_fullwidth: arches.jpg
 ---
 
-For general questions, please email: katerina@psu.edu
+For general questions, please email: <a href="MAILTO:pches@psu.edu" >pches@psu.edu</a>
 
 
 
