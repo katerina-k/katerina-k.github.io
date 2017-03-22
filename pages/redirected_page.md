@@ -1,7 +1,7 @@
 ---
 title: "A website that doesn't exit"
 layout: redirect
-sitemap: false
+sitemap: "false"
 permalink: /redirect-page/
 redirect_to:  "http://phlow.github.io/feeling-responsive/info/"
 ---
