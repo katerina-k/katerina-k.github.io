@@ -10,13 +10,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Atom Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles_feeling_responsive.css">
 
   
 
-	 <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/klk5327_custom.css">
+	 <link rel="stylesheet" type="text/css" href="/assets/css/klk5327_custom.css">
 
-	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+	<script src="/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -42,13 +42,13 @@
 	<link rel="author" href="https://plus.google.com/u/0/118311555303973066167">
 	
 	
-	<link rel="canonical" href="http://localhost:4000/assets/xslt/atom.xslt">
+	<link rel="canonical" href="/assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
 	<meta property="og:description" content="The Program on Coupled Human Earth Systems (PCHES) is supported by the U.S. Department of Energy.">
-	<meta property="og:url" content="http://localhost:4000/assets/xslt/atom.xslt">
+	<meta property="og:url" content="/assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="PCHES">
@@ -66,7 +66,7 @@
 	
 	
 
-	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
+	<link type="text/plain" rel="author" href="/humans.txt">
 
 	
 
