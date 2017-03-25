@@ -1,7 +1,7 @@
 ---
 permalink: /sitemap/
 layout: page
-title: "Sitemap"
+title: "Site Map"
 header: no
 sitemap: "false"
 ---
