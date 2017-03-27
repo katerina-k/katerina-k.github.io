@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
 <?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>pches.psu.edu/</id>
+	<id>/</id>
 	<title>PCHES</title>
-	<updated>2017-03-27T09:58:09-04:00</updated>
+	<updated>2017-03-27T10:06:19-04:00</updated>
 
 	<subtitle>The Program on Coupled Human Earth Systems (PCHES) is supported by the U.S. Department of Energy.</subtitle>
 
@@ -21,8 +21,8 @@
 		</author>
 	
 
-	<link href="pches.psu.edu/atom.xml" rel="self" type="application/rss+xml" />
-	<link href="pches.psu.edu/" rel="alternate" type="text/html" />
+	<link href="/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="/" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="3.4.3">Jekyll</generator>
 

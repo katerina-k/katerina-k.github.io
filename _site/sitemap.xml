@@ -5,9 +5,9 @@
 
 	
 	<url>
-	<loc>pches.psu.edu/404.html</loc>
+	<loc>/404.html</loc>
 	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -20,26 +20,9 @@
 
 	
 	<url>
-	<loc>pches.psu.edu/about/</loc>
+	<loc>/about/</loc>
 	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-	<url>
-	<loc>pches.psu.edu/atom.xml</loc>
-	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -54,69 +37,9 @@
 
 	
 	<url>
-	<loc>pches.psu.edu/contact/</loc>
+	<loc>/atom.xml</loc>
 	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>pches.psu.edu/events/</loc>
-	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>pches.psu.edu/feed.xml</loc>
-	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>pches.psu.edu/humans.txt</loc>
-	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>pches.psu.edu/</loc>
-	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -131,24 +54,9 @@
 
 	
 	<url>
-	<loc>pches.psu.edu/news/</loc>
+	<loc>/contact/</loc>
 	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>pches.psu.edu/participants/</loc>
-	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -161,24 +69,9 @@
 
 	
 	<url>
-	<loc>pches.psu.edu/publications/</loc>
+	<loc>/events/</loc>
 	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>pches.psu.edu/redirect-page/</loc>
-	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -191,9 +84,116 @@
 
 	
 	<url>
-	<loc>pches.psu.edu/robots.txt</loc>
+	<loc>/feed.xml</loc>
 	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>/humans.txt</loc>
+	
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>/</loc>
+	
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>/news/</loc>
+	
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>/participants/</loc>
+	
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>/publications/</loc>
+	
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>/redirect-page/</loc>
+	
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>/robots.txt</loc>
+	
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -210,24 +210,9 @@
 
 	
 	<url>
-	<loc>pches.psu.edu/search/</loc>
+	<loc>/search/</loc>
 	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>pches.psu.edu/sitemap/</loc>
-	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -240,9 +225,24 @@
 
 	
 	<url>
-	<loc>pches.psu.edu/sitemap.xml</loc>
+	<loc>/sitemap/</loc>
 	
-		<lastmod>2017-03-27T09:58:09-04:00</lastmod>
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>/sitemap.xml</loc>
+	
+		<lastmod>2017-03-27T10:06:19-04:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
